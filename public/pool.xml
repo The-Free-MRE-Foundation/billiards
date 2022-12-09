@@ -1,0 +1,31 @@
+<root id='pool' justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW' options='{alignment: "middle-left"}'>
+    <col width=300 height=200 justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_FLEX_START' flexDirection='FLEX_DIRECTION_COLUMN_REVERSE' margins=5 >
+        <row width=300 height=100 justifyContent='JUSTIFY_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+            <Selector id='controls' justifyContent='JUSTIFY_SPACE_EVENLY' flexDirection='FLEX_DIRECTION_ROW' margins=1 options='{nullSelection: true, silent: true}'>
+                <col class='container' justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_COLUMN_REVERSE'>
+                    <Button id='reset' width=40 height=40 style='asset: "Undo Icon";'></Button>
+                    <Text width=1 style='textColor: "#27E655";' options='{textHeight: 0.08, textAnchor: "top-center"}'>Reset</Text>
+                </col>
+                <col class='container' justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_COLUMN_REVERSE'>
+                    <Button id='replay' width=40 height=40 style='asset: "Play Icon";'></Button>
+                    <Text id='position_text' width=1 style='textColor: "#27E655";' options='{textHeight: 0.07, textAnchor: "top-center"}'>Playback</Text>
+                </col>
+                <col class='container' justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_COLUMN_REVERSE'>
+                    <Button id='2d' width=40 height=40 style='asset: "Star Icon";'></Button>
+                    <Text id='rotation_text' width=1 style='textColor: "#27E655";' options='{textHeight: 0.07, textAnchor: "top-center"}'>2D Mode</Text>
+                </col>
+                <col class='container' justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_COLUMN_REVERSE'>
+                    <Button id='leaderboard' width=40 height=40 style='asset: "List Icon";'></Button>
+                    <Text id='rotation_text' width=1 style='textColor: "#27E655";' options='{textHeight: 0.07, textAnchor: "top-center"}'>Leaderboard</Text>
+                </col>
+                <col class='container' justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_COLUMN_REVERSE'>
+                    <Button id='about' width=40 height=40 style='asset: "Thumb Up Outline Icon";'></Button>
+                    <Text id='scale_text' width=1 style='textColor: "#27E655";' options='{textHeight: 0.08, textAnchor: "top-center"}'>About</Text>
+                </col>
+            </Selector>
+        </row>
+        <row id='popup' width=300 height=280 justifyContent='JUSTIFY_FLEX_END' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_COLUME_REVERSE'></row>
+    </col>
+    <col id='side' x=-40 y=130 flexDirection='FLEX_DIRECTION_COLUMN_REVERSE'>
+    </col>
+</root>

@@ -1,0 +1,9 @@
+<row height=16 justifyContent='JUSTIFY_CENTER' flexDirection='FLEX_DIRECTION_ROW' margins=1>
+    <Text width=10 height=16></Text>
+    <Text id='rank' width=10 height=16 options='{textHeight: 0.06, textAnchor: "bottom-center"}'>${row.rank}</Text>
+    <Text id='name' width=70 height=16 options='{textHeight: 0.06, textAnchor: "bottom-center"}'>${row.name}</Text>
+    <Text id='winrate' width=30 height=16 options='{textHeight: 0.06, textAnchor: "bottom-center"}'>${row.winrate}</Text>
+    <Text id='wins' width=30 height=16 options='{textHeight: 0.06, textAnchor: "bottom-center"}'>${row.wins}</Text>
+    <Text id='accuracy' width=30 height=16 options='{textHeight: 0.06, textAnchor: "bottom-center"}'>${row.accuracy}</Text>
+    <Text id='pots' width=30 height=16 options='{textHeight: 0.06, textAnchor: "bottom-center"}'>${row.pots}</Text>
+</row>

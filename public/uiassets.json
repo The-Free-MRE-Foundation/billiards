@@ -1,0 +1,137 @@
+[
+    {
+        "dimensions": {
+            "width": 0.066,
+            "height": 0.066,
+            "depth": 0.002566
+        },
+        "name": "Backward Icon",
+        "resourceId": "artifact:2153164229207654989"
+    },
+    {
+        "dimensions": {
+            "width": 0.066,
+            "height": 0.066,
+            "depth": 0.002566
+        },
+        "name": "Book Icon",
+        "resourceId": "artifact:2153164229861966416"
+    },
+    {
+        "dimensions": {
+            "width": 0.066,
+            "height": 0.066,
+            "depth": 0.002566
+        },
+        "name": "File Icon",
+        "resourceId": "artifact:2153164230130401873"
+    },
+    {
+        "dimensions": {
+            "width": 0.066,
+            "height": 0.066,
+            "depth": 0.002566
+        },
+        "name": "Forward Icon",
+        "resourceId": "artifact:2153164229341872718"
+    },
+    {
+        "dimensions": {
+            "width": 0.066,
+            "height": 0.066,
+            "depth": 0.002566
+        },
+        "name": "List Icon",
+        "resourceId": "artifact:2153164230256230994"
+    },
+    {
+        "dimensions": {
+            "width": 0.066,
+            "height": 0.066,
+            "depth": 0.002566
+        },
+        "name": "Music Icon",
+        "resourceId": "artifact:2153164228293296713"
+    },
+    {
+        "dimensions": {
+            "width": 0.066,
+            "height": 0.066,
+            "depth": 0.002566
+        },
+        "name": "Next Icon",
+        "resourceId": "artifact:2153164228553343562"
+    },
+    {
+        "dimensions": {
+            "width": 0.066,
+            "height": 0.066,
+            "depth": 0.002566
+        },
+        "name": "Pause Icon",
+        "resourceId": "artifact:2153164230784713301"
+    },
+    {
+        "dimensions": {
+            "width": 0.066,
+            "height": 0.066,
+            "depth": 0.002566
+        },
+        "name": "Play Icon",
+        "resourceId": "artifact:2153164230650495572"
+    },
+    {
+        "dimensions": {
+            "width": 0.066,
+            "height": 0.066,
+            "depth": 0.002566
+        },
+        "name": "Previous Icon",
+        "resourceId": "artifact:2153164228947608140"
+    },
+    {
+        "dimensions": {
+            "width": 0.066,
+            "height": 0.066,
+            "depth": 0.002566
+        },
+        "name": "Settings Icon",
+        "resourceId": "artifact:2153164231833289303"
+    },
+    {
+        "dimensions": {
+            "width": 0.066,
+            "height": 0.066,
+            "depth": 0.002566
+        },
+        "name": "Star Icon",
+        "resourceId": "artifact:2153164231699071574"
+    },
+    {
+        "dimensions": {
+            "width": 0.066,
+            "height": 0.066,
+            "depth": 0.002566
+        },
+        "name": "Thumb Up Outline Icon",
+        "resourceId": "artifact:2153164229601919567"
+    },
+    {
+        "dimensions": {
+            "width": 0.066,
+            "height": 0.066,
+            "depth": 0.002566
+        },
+        "name": "Undo Icon",
+        "resourceId": "artifact:2153164230390448723"
+    },
+    {
+        "dimensions": {
+            "width": 0.0352,
+            "height": 0.0105,
+            "depth": 0.002566
+        },
+        "name": "PopUp Background",
+        "resourceId": "artifact:2153164228687561291"
+    }
+]

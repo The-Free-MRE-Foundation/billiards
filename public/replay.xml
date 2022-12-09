@@ -1,0 +1,41 @@
+<col id='replay_menu' width=300 height=70 justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_FLEX_START' flexDirection='FLEX_DIRECTION_COLUMN_REVERSE' style='asset: "PopUp Background";'>
+    <row width=300 justifyContent='JUSTIFY_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+        <Text width=4 height=30 style='textColor: "#27E655";' options='{textHeight: 0.1, textAnchor: "middle-center"}'>Playback Controls</Text>
+    </row>
+    <row width=300 height=35 justifyContent='JUSTIFY_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+        <Selector id='controls' justifyContent='JUSTIFY_SPACE_EVENLY' flexDirection='FLEX_DIRECTION_ROW' margins=5 options='{nullSelection: false}'>
+            <col justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_COLUMN_REVERSE'>
+                <Button id='load' width=30 height=30 style='asset: "File Icon";'></Button>
+                <Text width=1 height=15 style='textColor: "#27E655";' options='{textHeight: 0.06, textAnchor: "bottom-center"}'>Load</Text>
+            </col>
+            <col justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_COLUMN_REVERSE'>
+                <Button id='save' width=30 height=30 style='asset: "Star Icon";'></Button>
+                <Text width=1 height=15 style='textColor: "#27E655";' options='{textHeight: 0.06, textAnchor: "bottom-center"}'>Save</Text>
+            </col>
+            <col justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_COLUMN_REVERSE'>
+                <Button id='play' width=30 height=30 style='asset: "Play Icon";'></Button>
+                <Text width=1 height=15 style='textColor: "#27E655";' options='{textHeight: 0.06, textAnchor: "bottom-center"}'>PlayBack</Text>
+            </col>
+            <col justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_COLUMN_REVERSE'>
+                <Button id='pause' width=30 height=30 style='asset: "Pause Icon";'></Button>
+                <Text width=1 height=15 style='textColor: "#27E655";' options='{textHeight: 0.06, textAnchor: "bottom-center"}'>Pause</Text>
+            </col>
+            <col justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_COLUMN_REVERSE'>
+                <Button id='restart' width=30 height=30 style='asset: "Previous Icon";'></Button>
+                <Text width=1 height=15 style='textColor: "#27E655";' options='{textHeight: 0.06, textAnchor: "bottom-center"}'>Restart</Text>
+            </col>
+            <col justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_COLUMN_REVERSE'>
+                <Button id='end' width=30 height=30 style='asset: "Next Icon";'></Button>
+                <Text width=1 height=15 style='textColor: "#27E655";' options='{textHeight: 0.06, textAnchor: "bottom-center"}'>End</Text>
+            </col>
+            <col justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_COLUMN_REVERSE'>
+                <Button id='prev' width=30 height=30 style='asset: "Backward Icon";'></Button>
+                <Text width=1 height=15 style='textColor: "#27E655";' options='{textHeight: 0.06, textAnchor: "bottom-center"}'>Prev</Text>
+            </col>
+            <col justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_COLUMN_REVERSE'>
+                <Button id='next' width=30 height=30 style='asset: "Forward Icon";'></Button>
+                <Text width=1 height=15 style='textColor: "#27E655";' options='{textHeight: 0.06, textAnchor: "bottom-center"}'>Next</Text>
+            </col>
+        </Selector>
+    </row>
+</col>

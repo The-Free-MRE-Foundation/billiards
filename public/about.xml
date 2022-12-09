@@ -1,0 +1,3 @@
+<row id='about_menu' width=130 height=75 justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW' style='asset: "PopUp Background";'>
+    <Text id='about_text' options='{textAnchor: "middle-center"}'></Text>
+</row>

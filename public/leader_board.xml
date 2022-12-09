@@ -1,0 +1,20 @@
+<col id='leaderboard' height=200 justifyContent='JUSTIFY_CENTER' flexDirection='FLEX_DIRECTION_COLUMN_REVERSE' paddings=1 options='{alignment: "middle-center"}'>
+    <row justifyContent='JUSTIFY_CENTER' flexDirection='FLEX_DIRECTION_ROW' style='asset: "panel";'>
+        <row justifyContent='JUSTIFY_CENTER' flexDirection='FLEX_DIRECTION_COLUMN_REVERSE'>
+            <row id='header' height=16 justifyContent='JUSTIFY_CENTER' flexDirection='FLEX_DIRECTION_ROW' margins=1>
+                <Text  width=10 height=16 options='{textHeight: 0.06, textAnchor: "bottom-center"}'></Text>
+                <Text  width=10 height=16 options='{textHeight: 0.06, textAnchor: "bottom-center"}'>Rank</Text>
+                <Text width=70 height=16 options='{textHeight: 0.06, textAnchor: "bottom-center"}'>Name</Text>
+                <Text width=30 height=16 options='{textHeight: 0.06, textAnchor: "bottom-center"}'>Win Rate</Text>
+                <Text width=30 height=16 options='{textHeight: 0.06, textAnchor: "bottom-center"}'>Wins</Text>
+                <Text width=30 height=16 options='{textHeight: 0.06, textAnchor: "bottom-center"}'>Accuracy</Text>
+                <Text width=30 height=16 options='{textHeight: 0.06, textAnchor: "bottom-center"}'>Pots</Text>
+            </row>
+            <Table id='player_list_table' justifyContent='JUSTIFY_FLEX_START' flexDirection='FLEX_DIRECTION_COLUMN_REVERSE' options='{template_url: "leader_board_row.xml"}'>
+            </Table>
+            <row margins=1 justifyContent='JUSTIFY_CENTER' alignItems='ALIGN_CENTER' flexDirection='FLEX_DIRECTION_ROW'>
+                <Pager id='player_list_pager'></Pager>
+            </row>
+        </row>
+    </row>
+</col>
