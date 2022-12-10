@@ -6,7 +6,7 @@
 `cp .env_template .env`  
 modify the content of `.env`
 - Step 3: Run  
-`docker run -d -it --restart=always --env .env -p 3901:3901 <name>`
+`docker run -d -it --restart=always --env-file .env -p 3901:3901 <name>`
 
 ## License
 - The ABC MRE is released under the GPLv3 License
